@@ -68,6 +68,5 @@
     </div>
 
     <!-- content ends -->
-</div>
 
 <?php require_once "coms/footer.php" ?>
