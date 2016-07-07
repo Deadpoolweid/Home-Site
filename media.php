@@ -13,23 +13,7 @@
 
 
 <div id="main">
-    <!-- header begins -->
-    <div>
-        <nav id="buttons">
-            <a href="index.html" class="but">Домашняя</a>
-            <a class="but" href="media.html">Медиа</a>
-            <a class="but" href="gallery.html">Галерея</a>
-            <a class="but" href="about_us.html">О себе</a>
-            <a class="but" href="contact_us.html">Контакты</a>
-        </nav>
-        <div id="logo">
-            <a>Колесников Александр</a>
-            <h2><a>
-                <small>Долгий путь начинается с малого</small>
-            </a></h2>
-        </div>
-    </div>
-    <!-- header ends -->
+    <?php require_once "coms/header.php" ?>
 
     <!-- content begins -->
     <div id="content">
@@ -48,7 +32,7 @@
             <div id="right">
                 <div class="right_box_bg">
                     <a href="#" class="a_h1"><font color="Red">DW Season 8 trailer
-                    </font></a>
+                        </font></a>
                     <div style="height:8px"></div>
                     <div style=" clear:both; height:10px;"></div>
                     <div style="height:10px;"></div>
@@ -71,7 +55,7 @@
                     <div style="height:5px;"></div>
                     <div class="datc">By: <b><a class="a_non"
                                                 href="http://www.youtube.com/channel/UCggccVQxXZFny58cconVANA">John
-                        Smith</a></b></div>
+                                Smith</a></b></div>
                     <div style=" clear:both;"></div>
                 </div>
                 <div style="height: 15px;"></div>
@@ -80,52 +64,9 @@
             <div style="clear: both;"></div>
         </div>
         <div style="height:14px;"></div>
-        <!-- bottom begin -->
-        <div id="bottom">
-            <div class="b_col1">
-                <h2>Контакты</h2>
-                <div style="height:15px"></div>
-                <div class="lh">
-                    Россия, Тула 300000<br/>
-                    Phone: 8-953-4321-546<br/>
-                    E-mail: deadpoolweid@yandex.ru
-                </div>
-            </div>
-            <div class="b_col2">
-                <h2>Лабораторные работы</h2>
-                <div style="height:15px"></div>
-                <ul class="spis">
-                    <li><a href="HTML.html">HTML</a></li>
-                    <li><a href="Table.html">Таблицы</a></li>
-                    <li><a href="div_rubber.html">Фрейм</a></li>
-                    <li><a href="Mket.html">Макет</a></li>
-                </ul>
-            </div>
-            <div class="b_col3">
-                <h2>Найди меня</h2>
-                <div style="height:20px"></div>
-                <ul class="spisb2">
-                    <li><img src="images/fu_i2.gif" class=" fu_i" alt=""/><a
-                            href="http://facebook.com/deadpoolweid">Найди меня на Facebook</a></li>
-                    <li><img src="images/fu_i4.gif" class=" fu_i" alt=""/><a
-                            href="http://twittwer.com/deadpoolweid">Подпишись на твиттер</a></li>
-                    <li><img src="images/fu_i1.gif" class=" fu_i" alt=""/><a href="http://vk.com/id261422822">Добавь
-                        в друзья вконтакте</a></li>
-                </ul>
-            </div>
-            <div style="clear: both; height:20px;"></div>
-        </div>
-        <!-- bottom end -->
     </div>
 
     <!-- content ends -->
-
-
-    <!-- footer begins -->
-    <div id="footer">
-        Copyright 2014. <!-- Do not remove -->Designed by Alex_Green, coded by Alex_Green<!-- end --><br/>
-        <a href="#">Политика конфиденциальности</a> | <a href="#">Правила использования</a></div>
-    <!-- footer ends -->
 </div>
-</body>
-</html>
+
+<?php require_once "coms/footer.php" ?>
