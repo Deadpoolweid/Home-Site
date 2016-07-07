@@ -9,9 +9,8 @@
 </head>
 
 <body>
-
-<?php require_once "coms/header.php" ?>
 <div id="main">
+    <?php require_once "coms/header.php" ?>
     <!-- content begins -->
     <div id="content">
         <div>

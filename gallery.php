@@ -29,9 +29,8 @@
 </head>
 
 <body>
-<? require_once "coms/header.php" ?>
 <div id="main">
-
+    <? require_once "coms/header.php" ?>
     <!-- content begins -->
     <div id="content">
         <div class="row">
@@ -150,8 +149,6 @@
             <div style="clear: both; height: 20px"></div>
         </div>
     </div>
-    </duv>
-</div>
 <!-- content ends -->
 
 <?php require_once "coms/footer.php" ?>

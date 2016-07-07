@@ -10,7 +10,6 @@
 
     <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
-Testing changes
 <body>
 
 <div id="main">
