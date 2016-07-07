@@ -31,23 +31,6 @@
 <body>
 <? require_once "coms/header.php" ?>
 <div id="main">
-    <!-- header begins -->
-    <div>
-        <nav id="buttons">
-            <a href="index.html" class="but">Домашняя</a>
-            <a class="but" href="media.html">Медиа</a>
-            <a class="but" href="gallery.html">Галерея</a>
-            <a class="but" href="about_us.html">О себе</a>
-            <a class="but" href="contact_us.html">Контакты</a>
-        </nav>
-        <div id="logo">
-            <a>Колесников Александр</a>
-            <h2><a>
-                    <small>Долгий путь начинается с малого</small>
-                </a></h2>
-        </div>
-    </div>
-    <!-- header ends -->
 
     <!-- content begins -->
     <div id="content">

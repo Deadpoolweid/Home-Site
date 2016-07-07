@@ -5,6 +5,7 @@
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <title>Media</title>
     <script type="text/javascript" src="lib/jplayer.js"></script>
     <script type="text/javascript" src="lib/Anison.js"></script>
     <script type="text/javascript" src="lib/jquery.min.js"></script>
