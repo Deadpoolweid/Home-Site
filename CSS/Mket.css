@@ -1,0 +1,424 @@
+/***********************************************************************************/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+img {
+	border: none;
+}
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 0; 
+	padding: 0;
+    background-color: #D3CDCD;
+}
+
+
+/***********************************************************************************/
+    @font-face 
+    {
+        font-family: free;
+        src: url(fonts/free.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: koma;
+        src: url(fonts/koma.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: freeie;
+        src: url(fonts/free.eot);
+    }
+
+    @font-face 
+    {
+        font-family: komaie;
+        src: url(fonts/koma.eot);
+    }
+/***********************************************************************************/
+
+#header {
+	margin: 0 auto auto auto; 
+	padding: 0 auto auto auto;
+    background-image: url(Photo/DD/header.jpg);
+    position: relative;
+    width: 100%;
+    min-height: 124px;
+}
+
+        #headline {
+        margin: 0 auto auto auto; 
+        padding: 0 auto auto auto;
+        position: relative;
+        background: url(Photo/DD/header.jpg) 0% 0% repeat;
+        width: 1000px;
+        min-height: 124px;
+        }
+
+                #logo {
+                margin: 20px 20px 50px 130px; 
+                padding: 0 auto auto auto;
+                float: left;
+                position: absolute;
+                min-width: 250px;
+                min-height: 70px;
+                }
+
+                        #logo_img {
+                        margin: 7px auto auto 0; 
+                        padding: 0 auto auto auto;
+                        float: left;
+                        background: url(Photo/DD/pencils.png);
+                        min-width: 56px;
+                        min-height: 66px;
+                        }
+
+                        #logo_text {
+                        margin: auto auto auto 5px; 
+                        padding: auto auto auto auto;
+                        float: left;
+                        background-color: ; 
+                        min-width: 150px;
+                        min-height: 70px;
+                        }
+
+                        #logo_text1 {
+                        font-size: 22px; 
+                        font-family: free, freeie;
+                        letter-spacing: 1px;
+                        line-height: 1;
+                        color: #111;
+                            
+                        font-weight: bold;
+                        }
+
+                        #logo_text2 {
+                        font-size: 32px; 
+                        font-family: free, freeie;
+                        letter-spacing: 1px;
+                        line-height: 0.9;
+                        color: #111;
+                        font-weight: bold;
+                        }
+
+                #menu {
+                float: right;
+                margin: 46px 125px 0 0;
+                letter-spacing: 0px;
+                font-size: 24px;
+                }
+
+                #menu a{
+                color: #aaa;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0;
+                font-family: koma, komaie;
+                font-weight: bold;
+                font-size: 23px;
+                padding: 10px 8px 10px 8px;
+                height: 200px;
+                width: 150px;
+                }
+    
+#wrapper {
+	margin: 0 auto auto auto; 
+	padding: 0 auto auto auto;
+    background-color: #D3CDCD;
+    position: relative;
+    width: 100%;
+}
+
+        #content {
+        margin: 0 auto auto auto; 
+        padding: 0 auto auto auto;
+        background-color: #D3CDCD;
+        position: relative;
+        width: 1000px;
+        }
+
+                #topline {
+                margin: 0 auto auto auto; 
+                position: relative;
+                width: 1000px;
+                height: 20px;
+                }
+
+                #imgline {
+                margin: 0 auto auto auto; 
+                padding: 0 auto auto auto;
+                position: relative;
+                background: url(Photo/DD/fon.png);
+                width: 800px;
+                height: 382px;
+                }
+
+                        #title {
+                        margin: 0 auto auto auto;
+                        padding: 17px 10px 0px 30px;
+                        position: absolute;
+                        width: 700px;
+                        height: 120px;  
+                        font-family: free, freeie;
+                        font-size: 58px;
+                        font-weight:bold;
+                        color: #111;
+                        line-height: 0.9;
+                        } 
+                        
+                        #moreproject{
+                        margin: 135px auto auto 30px; 
+                        position: relative;
+                        float:left;
+                        background:  url(Photo/DD/ph.jpg);
+                        width: 215px;
+                        height: 215px;
+                        border-radius: 7px;
+                        } 
+
+
+                        #button_img {
+                        margin: 335px auto auto 155px;
+                        position: absolute;
+                        float:left;
+                        background: url(Photo/DD/button.png);
+                        width: 123px;
+                        height: 28px;
+                        font-size: 11px;
+                        color: #fff;
+                        } 
+
+                                #buttontext {
+                                margin: 0 auto auto auto;
+                                padding: 7px 6px 0 14px;
+                                font-size: 11px;
+                                font-family: koma, komaie;
+                                letter-spacing: 1px;
+                                color: #eee;
+                                } 
+
+                        #textbox_img {
+                        margin: 120px auto auto 255px;
+                        padding: 10px 20px 10px 10px;
+                        position: absolute;
+                        float:left;
+                        width: 270px;
+                        height: 220px;
+                        }                       
+
+                        #picturebox_img {
+                        margin: 100px 20px auto auto; 
+                        position: relative;
+                        float: right;
+                        background: url(Photo/DD/image1.png);
+                        width: 242px;
+                        height: 252px;
+                        }  
+
+                        .imgboxtitle { 
+                        margin: 10px 0 10px 0;
+                        font-size: 17px; 
+                        font-family: koma, komaie;
+                        letter-spacing: 0px;
+                        color: #111;
+                        font-weight: bold;
+                        }
+                        
+                        .imgboxtext {
+                        padding: 0px 20px 10px 0px;
+                        line-height: 1.5;
+                        font-size: 14px;
+                        letter-spacing: 0px;
+                        font-family: koma, komaie;
+                        color: #bbb;
+                        }
+
+                #midleline {
+                margin: 0 auto auto auto; 
+                width: 1000px;
+                height: 15px;
+                }
+
+                #textline {
+                margin: 0 auto auto auto; 
+                padding: 0 auto auto auto;
+                background-color: #eee;
+                width: 1000px;
+                }
+
+                        #textbox1 {
+                        margin: 0 10px auto 120px; 
+                        padding: 0 auto auto auto;
+                        width: 250px;
+                        min-height: 178px;
+                        float: left;  
+                        }
+
+                        div #textbox2 {
+                        margin: 0 auto auto auto; 
+                        padding: 0 auto auto auto;
+                        width: 240px;
+                        min-height: 178px;
+                        float: left;
+                        }
+
+                        #textbox3 {
+                        margin: 0 120px auto 10px; 
+                        padding: 0 auto auto auto;
+                        width: 250px;
+                        min-height: 178px;
+                        float: left;    
+                        }
+
+                        .textboxtitle { 
+                        margin: 0px 0 8px 0;
+                        font-size: 25px; 
+                        font-family: free, freeie;
+                        letter-spacing: 1px;
+                        font-weight: bold;
+                        color: #222;
+                        }
+                        
+                        .textboxtext {
+                        padding: 0px 20px 10px 0px;
+                        line-height: 1.4;
+                        font-size: 13px;  
+                        font-family: koma, komaie;
+                        }
+
+                #bottomline {
+                margin: auto auto 0 auto; 
+                width: 1000px;
+                height: 10px;
+                }
+
+#footer {
+	margin: 0 auto auto auto; 
+	padding: 0 auto auto auto; 
+    width: 100%;
+    min-height: 71px;
+    background: url(Photo/DD/footer.jpg);
+    position: absolute;
+}
+
+        #footline {
+        margin: 0 auto auto auto; 
+        padding: 0 auto auto auto; 
+        position: relative;
+        background: url(Photo/DD/footer.jpg);
+        width: 1000px;
+        min-height: 71px;
+        }
+
+                #text_footer {
+                margin: 25px auto auto 120px; 
+                padding: 0 auto auto auto; 
+                float:left;
+                font-size: 13px;
+                font-family: koma, komaie;
+                color: #999;
+                width: 380px;
+                min-height: 21px;
+                }
+
+
+                #twitter_footer {
+                margin: 21px auto auto 130px;
+                padding: 5px 5px 3px 8px;
+                float: left;
+                width: 130px;
+                min-height: 19px; 
+                background: #111115;
+                border-radius: 7px;
+                font-size: 12px;
+                color: #bbb;
+                vertical-align: middle;
+                }
+
+                #img_footer {
+                margin: 5px 120px auto auto; 
+                float: right;
+                background: url(Photo/DD/birds.png);
+                width: 102px;
+                min-height: 59px;
+                }
+
+.clear{clear:both;}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+    .aClass: hover {
+	text-decoration: underline;
+    }
+
+    .menuClass:hover {
+        background-color: #222;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);  
+    }    
+
+    .push_but1 {  
+      display: inline-block;   
+      text-decoration: none;
+      background: #222;
+      color: #bbb; 
+      margin: 20px 0 0 135px; 
+      padding: 7px 7px 9px 7px;
+      font-family: koma, komaie;
+      font-size: 14px; 
+      border-radius: 8px; 
+      -webkit-border-radius: 8px; 
+      -moz-border-radius 8px;  
+    } 
+
+    .push_but1:hover  
+    { 
+        display: inline-block;   
+      text-decoration: none;
+      background: #000; 
+      text-decoration: none;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);  
+    } 
+
+    .push_but1:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+    }
+
+   .push_but2 {  
+      display: inline-block;   
+      text-decoration: none;
+      background-image: url(Photo/DD/button.png);
+      margin: 0; 
+      border-radius: 8px; 
+      width: 123px;
+      height: 28px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px; 
+      -moz-border-radius 8px;  
+    } 
+
+    .push_but2:hover  
+    { 
+      display: inline-block;   
+      text-decoration: none;
+      background: #3399FF;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);  
+    } 
+
+    .push_but2:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+    }
+//////////////////////////////////////////////////////////////////////////////////////////

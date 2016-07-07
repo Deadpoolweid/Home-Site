@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist> 
+    <item>
+		<path>music2/aqua_timez_-_velonica.mp3</path>
+		<title>Aqua Timez - Velonica</title>
+	</item>
+       <item>
+		<path>music2/beat_crusaders_-_tonight_tonight_tonight.mp3</path>
+		<title>Beat Crusaders - Tonight, Tonight, Tonight</title>
+	</item>
+       
+        <item>
+		<path>music2/AquaTimez-Mayonaka_no_Orchestra.mp3</path>
+		<title>Aqua Timez - Mayonaka No Orchestra</title>
+	</item>
+        
+        <item>
+		<path>music2/Asterisk-OrangeRange.mp3</path>
+		<title>Asterisk - Orange Range</title>
+	</item>
+        
+	<item>
+		<path>music2/FLOW_Sign.mp3</path>
+		<title>FLOW - Sign</title>
+	</item>
+	
+	<item>
+		<path>music2/LongShotParty_Distance.mp3</path>
+		<title>Long Shot Party - Distance</title>
+	</item>
+	
+	<item>
+		<path>music2/Nobodyknow_HerosComeBack.mp3</path>
+		<title>Nobodyknows - Hero's Come Back</title>
+	</item>
+	
+	<item>
+		<path>music2/Azu_ForYou.mp3</path>
+		<title>Azu - For You</title>
+	</item>
+	
+	<item>
+		<path>music2/NicoTouchestheWalls_BrokenYouth.mp3</path>
+		<title>Nico Touches the Walls - Broken Youth</title>
+	</item>
+</playlist>

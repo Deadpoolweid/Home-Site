@@ -1,0 +1,31 @@
+<?
+$a=file("1.txt");
+$b=file("2.txt");
+for($i=0;$a[$i];$i++){
+	$aa[$i]=0;
+}
+for($i=0;$b[$i];$i++){
+	$bb[$i]=0;
+}
+for($i=0;$a[$i];$i++){
+	for($j=0;$b[$j];$j++){
+		if(strcmp($a[$i],$b[$j])==0){
+			$c[0]=str_pad($c[0],strlen($c[0])+strlen($a[$i]),$a[$i]);
+			$aa[$i]=1;$bb[$j]=1;
+		}
+	}
+}
+for($i=0;$a[$i];$i++){
+	if($aa[$i]==0){
+		$c[1]=str_pad($c[1],strlen($c[1])+strlen($a[$i]),$a[$i]);	
+	}
+}
+for($i=0;$b[$i];$i++){
+	if($bb[$i]==0){
+		$c[2]=str_pad($c[2],strlen($c[2])+strlen($b[$i]),$b[$i]);	
+	}
+}
+for($i=0;$c[$i];$i++){
+echo "$i -> $c[$i]<br>";
+}
+?>
