@@ -27,6 +27,7 @@ $RECYCLE.BIN/
 *.lnk
 
 .gitignore
+.gitattributes
 .idea/
 CSS/Photo/DD/Thumbs.db
 CSS/images/Thumbs.db
@@ -34,3 +35,5 @@ Players/Backup/
 images/Thumbs.db
 php/9/img/Thumbs.db
 styles/Photo/Thumbs.db
+/test.php
+/test.css
