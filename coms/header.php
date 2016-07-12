@@ -9,7 +9,7 @@
           <a class="but" href="../contact_us.php">Контакты</a>
       </nav>
       <div id="logo">
-          <a>Alex Green</a>
+          <p>Alex Green</p>
           <h2><small>Долгий путь начинается с малого</small></h2>
       </div>
   </div>
