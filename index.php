@@ -4,10 +4,6 @@
     <meta http-equiv="content-type" content="text/html" charset="UTF-8" />
 
     <title>Alex Green</title>
-
-    <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
-    <script type="text/javascript" src="lib/jquery.tools.js"></script>
-
     <? require_once "links.php" ?>
     <link rel="stylesheet" type="text/css" href="/coms/slider.css" >
 </head>

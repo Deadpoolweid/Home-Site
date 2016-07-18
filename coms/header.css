@@ -34,8 +34,12 @@ nav#buttons {
     /* Вертикальное центрирование (подгонка) */
     line-height: 250%;
 
-    background: black url(/images/but.png) no-repeat left top;
+    /*background: black url(/images/but.png) no-repeat left top;*/
+    background: rgb(43,163,245);
+    background: radial-gradient(ellipse at center,  rgba(43,163,245,1) 0%,rgba(2,18,44,1) 73%,rgba(2,18,44,1) 73%,rgba(2,18,44,1) 100%);
     background-size: cover;
+
+    /*border-radius: 40%;*/
 }
 
 .but:hover {

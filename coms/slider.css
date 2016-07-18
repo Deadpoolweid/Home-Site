@@ -1,11 +1,11 @@
 .slider {
     width: inherit;
     height: 500px;
-    background-color: purple;
+    /*background-color: purple;*/
 
     position: static;
 
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
 
 }
 
@@ -14,7 +14,7 @@
 
     height: 100%;
 
-    background-color: #003d67;
+    /*background-color: #003d67;*/
 
     /*overflow: hidden;*/
 
@@ -22,7 +22,7 @@
 }
 
 .item {
-    background-color: #0b61a4;
+    /*background-color: #0b61a4;*/
 
     position: absolute;
 
@@ -56,15 +56,20 @@
     50% {
         opacity: 0.2;
     }
-    to {
+    99% {
         transform: scale(0.5);
         margin-bottom: 100%;
+    }
+    to {
         opacity: 0;
     }
 }
 
 input[type="radio"] + .item {
-    animation: fade-in 0.5s;
+    animation: fade-in 0.5s forwards;
+
+    visibility: hidden;
+    z-index: 0;
 }
 
 input[type="radio"]:checked + .item {
@@ -74,12 +79,13 @@ input[type="radio"]:checked + .item {
 }
 
 .slider .info {
-    background-color: #8f7a66;
+    /*background-color: #8f7a66;*/
 
+    background-color: #5f308f;
     float: left;
     width: 35%;
 
-    border: 2px solid yellow;
+    border: 2px solid orangered;
     border-radius: 2%;
 
     margin: 1%;
@@ -95,11 +101,6 @@ input[type="radio"]:checked + .item {
 
 .slider .info h1 {
     margin-bottom: 3%;
-}
-
-.slider img {
-    transition: 0.25s;
-    /*width: inherit;*/
 }
 
 .slider img:hover {
