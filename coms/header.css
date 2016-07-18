@@ -24,8 +24,7 @@ nav#buttons {
     width: 152px;
     clear: both;
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: 100;
     color: #FFFF00;
 
@@ -47,22 +46,29 @@ nav#buttons {
 
 .but:active {
     transform: scale(0.8);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6) inset,
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6) inset;
 }
 
 #logo {
     color: #FF9933;
-    margin-left: 2%;
+
+    /*position: relative;*/
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-right: 2%;
+    margin-top: 3%;
+    margin-bottom:3%;
 }
 
 #logo p {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight:bold;
+    font-size: 1em;
 }
 
 #logo h2 {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
     font-style: italic;
 }

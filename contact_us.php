@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Contact us</title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-    <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <?php require_once 'links.php' ?>
 </head>
 
 <body>
@@ -36,8 +33,10 @@
                 <input class="input_txt" placeholder="E-mail" name="E-Mail" type="email" email
                        required="true"/>
                 <input class="input_txt" placeholder="Тема" name="Name" type="text" required="true"/>
-                <textarea placeholder="Сообщение" class="input_txt" cols="32" rows="3" name="Message"
+
+                <textarea class="input_txt no-scroll" maxlength="96" placeholder="Сообщение" cols="32" rows="3" name="Message"
                                   required="true"></textarea>
+
                 <div class="buttons">
                     <input class="button" name="Submit" type="submit" value="Отправить"/>
                     <input class="button" name="Submit" type="reset" value="Очистить"/>

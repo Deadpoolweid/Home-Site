@@ -9,8 +9,9 @@
 
     position: relative;
     margin: 0 auto;
-
     margin-bottom: 1%;
+
+    padding-top: 1%;
 
     clear: both;
 
@@ -26,24 +27,16 @@
 
     float: left;
 
-    text-align: left;
-
     padding: 0 0.5% 0;
-    color: #ffffff;
-
-    line-height: 25px;
-
-    font-family: "Times New Roman", Helvetica, Arial;
-}
-
-.b_col h2 {
-    text-align: center;
-    color: red;
-    font-weight: 100;
 }
 
 .b_col ul {
+
     list-style: none;
+}
+
+.b_col h2 {
+    margin-bottom:10%;
 }
 
 #footer {

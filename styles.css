@@ -8,16 +8,20 @@ body {
     background-color: #000000;
 
     font: 1em Arial, Helvetica, SansSerif;
-    color: #ffffff;
+    color: lightblue;
+
+    line-height: 1.5rem;
 }
 
-a {
-    color: white;
-    text-decoration: underline;
+h1 {
+    color: indianred;
+    font-size: x-large;
+    font-weight: bold;
 }
 
-a:hover {
+h2 {
     color: red;
+    font-weight: 100;
 }
 
 #content {
@@ -29,35 +33,67 @@ a:hover {
     background-color: #5CA22E;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+/*Вершина блока*/
+.head {
+    width: inherit;
+    height:inherit;
+
+
+    clear: both;
+    text-align: center;
 }
 
+/*Левый блок*/
 #left {
     position: relative;
     float: left;
     width: 40%;
 
     margin: 1% 0;
+
+    padding: 1% 4%;
+
+    background-color: mediumvioletred;
 }
 
+/*Правый блок*/
 #right {
     width: 60%;
     background-color: #3f046f;
 
     margin: 1% 0;
 
+    padding: 1% 4%;
+
     position: relative;
     float:right;
 
     align-content: flex-start;
+
+    text-align: left;
 }
 
-.head {
-    text-align: center;
+.row {
+    width: 100%;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1% 0;
+
+    background-color: fuchsia;
+
+    clear: both;
 }
 
+.cell {
+    width: 31%;
+    float: left;
+
+    margin: 0 1%;
+
+    text-align: left;
+}
+
+/*Поля вода*/
 .input_txt {
     outline: none;
 
@@ -65,9 +101,9 @@ img {
 
     color:gray;
 
-    margin: 5% 10%;
+    margin: 5% 0;
 
-    width: 50%;
+    width: 100%;
     height: 2em;
 
     padding-left: 3%;
@@ -82,7 +118,6 @@ img {
         border-left 0.1s 0.2s ease-out,
         transform 0.3s ease;
 }
-
 .input_txt:focus {
     border: 2px solid black;
 
@@ -93,6 +128,35 @@ img {
     transform: scale(1.15);
 }
 
+/*TextArea*/
+textarea {
+    min-height: 10.85em;
+}
+.no-scroll {
+    overflow: hidden;
+}
+textarea::-webkit-input-placeholder {
+    -webkit-transform: translateY(800%);
+    -moz-transform: translateY(800%);
+    -ms-transform: translateY(800%);
+    -o-transform: translateY(800%);
+    transform: translateY(800%);
+
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+    transition: transform 0.5s;
+}
+textarea:focus::-webkit-input-placeholder {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);;
+}
+
+/*Кнопки*/
 .button {
 
     font-family: Arial, Helvetica, sans-serif;
@@ -125,7 +189,6 @@ img {
         transform 0.5s,
         background 0.5s;
 }
-
 .button:hover {
     box-shadow: 0 0 5px 5px darkblue;
 
@@ -142,4 +205,20 @@ img {
 
     padding-left: 10%;
     background-color: #5CA22E;
+}
+
+/*Ссылки*/
+a {
+    color: lightcyan;
+    text-decoration: underline;
+}
+a:hover {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    margin: 2% 0;
 }
