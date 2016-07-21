@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Gallery</title>
-    <? require_once "/links.php" ?>
+    <? require_once "links.php" ?>
 </head>
 
 <body>

@@ -8,7 +8,7 @@
 
 <body>
 <div id="main">
-    <?php require_once "/coms/header.php" ?>
+    <?php require_once "coms/header.php" ?>
     <!-- content begins -->
     <div id="content">
         <div id="left">

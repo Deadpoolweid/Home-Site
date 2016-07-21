@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <title>Media</title>
 
-    <? require_once "/links.php" ?>
+    <? require_once "links.php" ?>
 </head>
 <body>
 <div id="main">
