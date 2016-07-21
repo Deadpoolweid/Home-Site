@@ -28,6 +28,8 @@ $RECYCLE.BIN/
 
 .gitignore
 .gitattributes
+*.map
+*.scss
 .idea/
 CSS/Photo/DD/Thumbs.db
 CSS/images/Thumbs.db
