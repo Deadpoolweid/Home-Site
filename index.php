@@ -29,7 +29,7 @@
                                 У него был характер молодого человека в теле старика.
                             </p>
                         </div>
-                            <img src="images/top_img.jpg" alt="" />
+                            <img src="assets/images/top_img.jpg" alt="" />
 
                     </div>
 
@@ -47,7 +47,7 @@
                                 истинные способности.
                             </p>
                         </div>
-                        <img src="images/top_img2.jpg" alt="" />
+                        <img src="assets/images/top_img2.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -64,7 +64,7 @@
                                 продолжал помогать ЮНИТу защищать Землю от всяких инопланетных угроз.
                             </p>
                         </div>
-                        <img src="images/top_img3.jpg" alt="" />
+                        <img src="assets/images/top_img3.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -81,7 +81,7 @@
                                 врагов.
                             </p>
                         </div>
-                        <img src="images/top_img4.jpg" alt="" />
+                        <img src="assets/images/top_img4.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -98,7 +98,7 @@
                                 любил надевать очки, когда рассматривал что-то. Они делали его «немного умнее».
                             </p>
                         </div>
-                        <img src="images/top_img5.jpg" alt="" />
+                        <img src="assets/images/top_img5.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -116,7 +116,7 @@
                                 всем, кого встречал.
                             </p>
                         </div>
-                        <img src="images/top_img6.jpg" alt="" />
+                        <img src="assets/images/top_img6.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -133,7 +133,7 @@
                                 практических целей, чем для защиты от дождя.
                             </p>
                         </div>
-                        <img src="images/top_img7.jpg" alt="" />
+                        <img src="assets/images/top_img7.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -151,7 +151,7 @@
                                 и бывал в мирах, где линейного времени не существует вовсе.
                             </p>
                         </div>
-                        <img src="images/top_img8.jpg" alt="" />
+                        <img src="assets/images/top_img8.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -166,7 +166,7 @@
                                 своими будущими воплощениями.
                             </p>
                         </div>
-                        <img src="images/top_img8.5.jpg" alt="" />
+                        <img src="assets/images/top_img8.5.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -183,7 +183,7 @@
                                 предыдущем воплощении.
                             </p>
                         </div>
-                        <img src="images/top_img9.jpg" alt="" />
+                        <img src="assets/images/top_img9.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -200,7 +200,7 @@
                                 бдительность врагов. Также при случае он может быть грубым и жестоким.
                             </p>
                         </div>
-                        <img src="images/top_img10.jpg" alt="" />
+                        <img src="assets/images/top_img10.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -217,7 +217,7 @@
                                 судьба целой планеты. Очень дипломатичен и всегда старается действовать мирно.
                             </p>
                         </div>
-                        <img src="images/top_img11.jpg" alt="" />
+                        <img src="assets/images/top_img11.jpg" alt="" />
                     </div>
 
                     <input name="radio" type="radio"/>
@@ -232,7 +232,7 @@
                                 своеобразный.
                             </p>
                         </div>
-                        <img src="images/top_img12.jpg" alt="" />
+                        <img src="assets/images/top_img12.jpg" alt="" />
                     </div>
                 </div>
             </div>

@@ -10,12 +10,10 @@
         </p>
     </div>
     <div class="b_col">
-        <h2>Лабораторные работы</h2>
+        <h2>Мои проекты</h2>
         <ul>
-            <li><a href="HTML.html">HTML</a></li>
-            <li><a href="Table.html">Таблицы</a></li>
-            <li><a href="div_rubber.html">Фрейм</a></li>
-            <li><a href="Mket.html">Макет</a></li>
+            <li><a href="https://github.com/Deadpoolweid/Snake">Змейка</a></li>
+            <li><a href="https://github.com/Deadpoolweid/Home-Site">Проект этого сайта</a></li>
         </ul>
     </div>
     <div class="b_col">

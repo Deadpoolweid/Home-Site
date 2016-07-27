@@ -24,7 +24,7 @@
             </div>
         </div>
         <div id="left">
-            <img src="images/left.jpeg"/>
+            <img src="assets/images/left.jpeg"/>
         </div>
         <div id="right">
             <form action="" method="post">

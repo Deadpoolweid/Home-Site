@@ -1,0 +1,269 @@
+body {
+    background: url("/assets/images/bg_top.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    background-color: lightsteelblue;
+
+    font: 1em Arial, Helvetica, SansSerif;
+    color: lightcyan;
+
+    line-height: 1.5rem;
+
+}
+
+h1 {
+    color: indianred;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+    font-weight: 100;
+}
+
+#content {
+    width: 800px;
+    height: 100%;
+
+    margin: 1% auto;
+
+    /*background-color: #5CA22E;*/
+    /*background: radial-gradient(ellipse at center, rgba(112, 32, 178, 1) 1%, rgba(2, 18, 44, 1) 91%, rgba(2, 18, 44, 1) 100%);*/
+}
+
+/*Вершина блока*/
+.head {
+    width: inherit;
+    height: inherit;
+
+    clear: both;
+    text-align: center;
+}
+
+/*Левый блок*/
+#left {
+    position: relative;
+    float: left;
+    width: 40%;
+
+    margin: 1% 0;
+
+    padding: 1% 4%;
+
+    /*background-color: mediumvioletred;*/
+}
+
+/*Правый блок*/
+#right {
+    width: 60%;
+    /*background-color: #3f046f;*/
+
+    margin: 1% 0;
+
+    padding: 1% 4%;
+
+    position: relative;
+    float: right;
+
+    align-content: flex-start;
+
+    text-align: left;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+    padding: 1%;
+    margin: 1% 0;
+
+    /*background-color: fuchsia;*/
+
+    clear: both;
+}
+
+.cell {
+    width: 31%;
+    float: left;
+
+    margin: 0 1%;
+
+    text-align: left;
+}
+
+/*Поля вода*/
+@keyframes OnFocus {
+    10% {
+        background: radial-gradient(ellipse at center, rgba(2,18,44,0.01) 0%,rgba(2,18,44,0.02) 12%,rgba(112,32,178,0.09) 99%,rgba(112,32,178,0.099) 100%); opacity: 1;
+    }
+    50% {
+        background: radial-gradient(ellipse at center, rgba(2,18,44,0.1) 0%,rgba(2,18,44,0.2) 12%,rgba(112,32,178,0.9) 99%,rgba(112,32,178,0.99) 100%); opacity: 1;
+    }
+    to {
+        background: radial-gradient(ellipse at center, rgba(2,18,44,0.17) 0%,rgba(2,18,44,0.27) 12%,rgba(112,32,178,0.99) 99%,rgba(112,32,178,1) 100%);    opacity: 1;
+
+        box-shadow: 0px 0px 0px 2px #3f046f;
+    }
+}
+
+.input_txt {
+    outline: none;
+
+    display: block;
+
+    color: lightcyan;
+
+    margin: 5% 0;
+
+    width: 100%;
+    height: 2em;
+
+    padding-left: 3%;
+
+    border: none;
+    border-bottom: 2px solid black;
+
+    background: transparent;
+
+    transition: border-right 0.1s ease,
+    border-top 0.1s 0.1s ease-out,
+    border-left 0.1s 0.2s ease-out,
+    transform 0.3s ease;
+}
+
+/*Цвет текста для placeholder*/
+.input_txt::-webkit-input-placeholder {
+    color: lightcyan;
+}
+
+.input_txt:-moz-placeholder {
+    color: lightcyan;
+}
+
+.input_txt:-ms-input-placeholder {
+    color: lightcyan;
+}
+
+.input_txt:focus {
+    border: 2px solid black;
+
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+
+    animation: OnFocus 1s forwards;
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+}
+
+/*TextArea*/
+textarea {
+    min-height: 10.85em;
+    max-width: 100%;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+textarea::-webkit-input-placeholder {
+    -webkit-transform: translateY(800%);
+    -moz-transform: translateY(800%);
+    -ms-transform: translateY(800%);
+    -o-transform: translateY(800%);
+    transform: translateY(800%);
+
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+    transition: transform 0.5s;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);;
+}
+
+/*Кнопки*/
+.button {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkgray;
+
+    text-decoration: none;
+    text-align: center;
+
+    /*padding: 1%;*/
+
+    cursor: pointer;
+
+    background-color: #3f046f;
+
+    border: 2px solid black;
+
+    margin: 1%;
+
+    /* Вертикальное центрирование (подгонка) */
+    line-height: 250%;
+
+    background-color: transparent;
+
+    /*background: black url(/images/button.jpg) no-repeat left top;*/
+    /*background-size: cover;*/
+
+    transition: box-shadow 0.5s,
+    transform 0.5s,
+    background 0.5s;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px 5px rebeccapurple;
+
+    background-color: #701487;
+
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.buttons {
+    /*display: flex;*/
+    align-content: center;
+    /* TODO Подгонка*/
+    padding-left: 25%;
+    /*background-color: #5CA22E;*/
+}
+
+/*Ссылки*/
+a {
+    color: lightcyan;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    margin: 2% 0;
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
