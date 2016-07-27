@@ -23,15 +23,8 @@
         </div>
         <div id="right">
             <h1>DW Season 8 trailer</h1>
-            <object id="video" type="application/x-shockwave-flash" data="players/uppod.swf" width="500"
-                    height="375">
-                <param name="bgcolor" value="#ccffff"/>
-                <param name="allowFullScreen" value="true"/>
-                <param name="allowScriptAccess" value="always"/>
-                <param name="movie" value="players/uppod.swf"/>
-                <param name="flashvars"
-                       value="comment=DW&amp;st=styles/video205-633.txt&amp;file=Video/DW.mp4&amp;poster=images/Leonardo.jpg"/>
-            </object>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-lBeV5bQW70" frameborder="0"
+                    allowfullscreen></iframe>
 
             <p>
                 By:

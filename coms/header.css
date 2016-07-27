@@ -31,8 +31,7 @@ nav#buttons {
     text-decoration: none;
     text-align: center;
 
-    /* Вертикальное центрирование (подгонка) */
-    line-height: 250%;
+    line-height: 47px;
 
     /*background: black url(/images/but.png) no-repeat left top;*/
     background: rgb(43,163,245);
