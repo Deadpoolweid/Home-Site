@@ -10,7 +10,7 @@
       </nav>
       <div id="logo">
           <p>Alex Green</p>
-          <h2><small>Долгий путь начинается с малого</small></h2>
+          <h2>Долгий путь начинается с малого</h2>
       </div>
   </div>
   <!-- header ends -->

@@ -1,52 +1,50 @@
-#bottom {
-    background-color: #5CA22E;
-
+footer {
     background-image: url("/assets/images/bottom.jpg");
-
-    background-color: #3f046f;
-
-    width: 800px;
-
-    height: 200px;
-
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 1%;
-    padding-top: 1%;
-
+    width: 100%;
     clear: both;
-
-    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-.b_col {
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 2%;
+}
+
+.column :nth-child(n):not(a) {
     display: block;
-
-    width: 250px;
-
-    margin: 1% 0.5% 0;
-
-    float: left;
-
-    padding: 0 0.5% 0;
+    margin: 1.5% 0;
 }
 
-.b_col ul {
-
-    list-style: none;
+footer li:before {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    content: ' ';
+    background-size: cover;
 }
 
-.b_col h2 {
-    margin-bottom:10%;
+footer ul {
+    text-align: justify;
 }
 
-#footer {
+#facebook:before {
+    background-image: url(/assets/icons/facebook.svg);
+}
+
+#twitter:before {
+    background-image: url(/assets/icons/twitter.svg);
+}
+
+#vkontakte:before {
+    background-image: url(/assets/icons/vk.svg);
+}
+
+#copyright {
     clear: both;
-    position: relative;
-
-    height:100%;
-    background-color: darkslategrey;
-
+    width: 100%;
     text-align: center;
     color: #8fa09b;
 }

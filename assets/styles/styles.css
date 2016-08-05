@@ -1,27 +1,26 @@
+@font-face {
+    font-family: GradeOne; /* Гарнитура шрифта */
+    src: url(/assets/fonts/GradeOne.ttf); /* Путь к файлу со шрифтом */
+}
+
 body {
     background: url("/assets/images/bg_top.jpg");
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center top;
+    /*background-color: #4a11ae;*/
 
-    background-color: lightsteelblue;
-
-    font: 1em Arial, Helvetica, SansSerif;
-    color: lightcyan;
+    font: 1em GradeOne, Arial, Helvetica, SansSerif;
+    color: #8655c1;
 
     line-height: 1.5rem;
-
 }
 
 h1 {
     color: indianred;
-    font-size: x-large;
     font-weight: bold;
 }
 
 h2 {
-    color: red;
+    color: #c53d00;
     font-weight: 100;
 }
 
@@ -248,7 +247,7 @@ textarea:focus::-webkit-input-placeholder {
 
 /*Ссылки*/
 a {
-    color: lightcyan;
+    color: #b1cece;
     text-decoration: underline;
 }
 

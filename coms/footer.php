@@ -1,45 +1,48 @@
-<link type="text/css" rel="stylesheet" href="/coms/footer.css" />
-<!-- bottom begin -->
-<div id="bottom">
-    <div class="b_col">
+<!-- footer begins -->
+<link type="text/css" rel="stylesheet" href="/coms/footer.css"/>
+<footer>
+    <div class="column">
         <h2>Контакты</h2>
         <p>
-            Россия, Тула 300000<br />
-            Phone:  <a href="sms:+79534321546?body=Привет. Я с твоего сайта.">8-953-4321-546</a><br>
-            E-mail: <a href="mailto:deadpoolweid@yandex.ru">deadpoolweid@yandex.ru</a>
+            Россия, Тула 300000
+            <span>
+                Phone: <a href="sms:+79534321546?body=Привет. Я с твоего сайта.">8-953-4321-546</a>
+            </span>
+            <span>
+                E-mail: <a href="mailto:deadpoolweid@yandex.ru">deadpoolweid@yandex.ru</a>
+            </span>
         </p>
     </div>
-    <div class="b_col">
+    <div class="column">
         <h2>Мои проекты</h2>
         <ul>
-            <li><a href="https://github.com/Deadpoolweid/Snake">Змейка</a></li>
-            <li><a href="https://github.com/Deadpoolweid/Home-Site">Проект этого сайта</a></li>
+            <li>
+                <a href="https://github.com/Deadpoolweid/Snake">Змейка</a>
+            </li>
+            <li>
+                <a href="https://github.com/Deadpoolweid/Home-Site">Проект этого сайта</a>
+            </li>
         </ul>
     </div>
-    <div class="b_col">
+    <div class="column">
         <h2>Найди меня</h2>
         <ul>
-            <li>
-                <img src="images/fu_i2.gif" alt="" />
-                <a href="http://facebook.com/deadpoolweid">Найди меня на Facebook</a>
+            <li id="facebook">
+                <a  href="http://facebook.com/deadpoolweid">Facebook</a>
             </li>
-            <li>
-                <img src="images/fu_i4.gif" alt="" />
-                <a href="http://twitter.com/deadpoolweid">Подпишись на твиттер</a>
+            <li id="twitter">
+                <a href="http://twitter.com/deadpoolweid">Twitter</a>
             </li>
-            <li>
-                <img src="images/fu_i1.gif" alt="" />
-                <a href="http://vk.com/id261422822">Добавь в друзья вконтакте</a>
+            <li id="vkontakte">
+                <a href="http://vk.com/id261422822">Vkontakte</a>
             </li>
         </ul>
     </div>
-</div>
-<!-- bottom end -->
-<!-- footer begins -->
-<div id="footer">
-    Copyright  2014. Designed by Alex_Green, coded by Alex_Green<br />
-    <a href="#">Политика конфиденциальности</a> | <a href="#">Правила использования</a></div>
-<!-- footer ends -->
-</div>
+    <div id="copyright">
+        Copyright 2014. Designed by Alex_Green, coded by Alex_Green<br/>
+        <a href="#">Политика конфиденциальности</a> | <a href="#">Правила использования</a>
+    </div>
+    <!-- footer ends -->
+</footer>
 </body>
 </html>
