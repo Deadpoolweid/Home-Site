@@ -1,44 +1,54 @@
 .slider {
-    width: inherit;
-    height: 500px;
+    /*width: inherit;*/
+    /*height: 100%;*/
     /*background-color: purple;*/
 
-    position: static;
+    /*position: static;*/
 
-    /*border: 1px solid gray;*/
 
 }
 
 .items {
-    position: relative;
+    /*position: relative;*/
 
     height: 100%;
+
+    width: 90%;
 
     /*background-color: #003d67;*/
 
     /*overflow: hidden;*/
 
     text-align: center;
+
+    margin: 0 auto;
+
 }
 
 .item {
-    /*background-color: #0b61a4;*/
+    background-color: rgba(11,97,164,0.5);
 
-    position: absolute;
+    position: relative;
 
 
-    width: inherit;
-    height: 95%;
+    /*height: 95%;*/
 
-    /*overflow: hidden;*/
-    /*margin: 1%;*/
+    overflow: hidden;
+    margin: 1%;
 
     transition: 1s;
-}
 
-.item {
-    visibility: hidden;
-    z-index: -1;
+    display: none;
+    /*visibility: hidden;*/
+    /*display: none;*/
+    /*z-index: -1;*/
+
+    /*text-align: center;*/
+
+    /*vertical-align: text-top;*/
+
+    /*display: block;*/
+    border: 0.1em solid rgba(128,128,128,0.5)
 }
 
 @keyframes appear {
@@ -62,50 +72,52 @@
     }
     to {
         opacity: 0;
+        display: none;
     }
-}
-
-input[type="radio"] + .item {
-    animation: fade-in 0.5s forwards;
-
-    visibility: hidden;
-    z-index: 0;
-}
-
-input[type="radio"]:checked + .item {
-    animation: appear 0.5s;
-    visibility: visible;
-    z-index: 1;
 }
 
 .slider .info {
     /*background-color: #8f7a66;*/
 
-    background-color: #5f308f;
-    float: left;
-    width: 35%;
+    background-color: rgba(14, 14, 85, 0.71);
+    /*float: left;*/
+    width: 40%;
+    /*height: 90%;*/
 
-    border: 2px solid orangered;
+    border: 2px solid #8a7aff;
     border-radius: 2%;
 
-    margin: 1%;
+    margin: 1% 5%;
 
-    font-size: smaller;
+    float: left;
 
-    text-align: left;
+    /*font-size: smaller;*/
+
+    /*text-align: left;*/
 
     padding: 1%;
     /*margin: 1%;*/
     /*margin-bottom: 0;*/
 }
 
-.slider .info h1 {
-    margin-bottom: 3%;
+.slider img {
+    width: 40%;
+
+    margin: .5% 1%;
+    float: right;
 }
 
 .slider img:hover {
     border: 2px solid black;
 }
 
+.control {
+    display: inline-block;
+    background: blue;
+    border-radius: 50%;
+    border: 0.1em solid black;
+    width: 1em;
+    height: 1em;
+}
 
 

@@ -2,7 +2,7 @@
 <link type="text/css" rel="stylesheet" href="/coms/footer.css"/>
 <footer>
     <div class="column">
-        <h2>Контакты</h2>
+        <h3>Контакты</h3>
         <p>
             Россия, Тула 300000
             <span>
@@ -14,7 +14,7 @@
         </p>
     </div>
     <div class="column">
-        <h2>Мои проекты</h2>
+        <h3>Мои проекты</h3>
         <ul>
             <li>
                 <a href="https://github.com/Deadpoolweid/Snake">Змейка</a>
@@ -25,16 +25,25 @@
         </ul>
     </div>
     <div class="column">
-        <h2>Найди меня</h2>
-        <ul>
-            <li id="facebook">
-                <a  href="http://facebook.com/deadpoolweid">Facebook</a>
+        <h3>Найди меня</h3>
+        <ul class="hrefs">
+            <li>
+                <a  href="http://facebook.com/deadpoolweid">
+                    <img src="/assets/icons/facebook.svg" alt="Facebook">
+                    Facebook
+                </a>
             </li>
-            <li id="twitter">
-                <a href="http://twitter.com/deadpoolweid">Twitter</a>
+            <li>
+                <a href="http://twitter.com/deadpoolweid">
+                    <img src="/assets/icons/twitter.svg" alt="twitter">
+                    Twitter
+                </a>
             </li>
-            <li id="vkontakte">
-                <a href="http://vk.com/id261422822">Vkontakte</a>
+            <li>
+                <a href="http://vk.com/id261422822">
+                    <img src="/assets/icons/vk.svg" alt="VK">
+                    Vkontakte
+                </a>
             </li>
         </ul>
     </div>
