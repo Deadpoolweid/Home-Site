@@ -3,7 +3,7 @@ SetOutputFilter DEFLATE
 Header append Vary User-Agent
 </ifmodule>
 FileETag MTime Size
-<ifmodule mod_expires.c>
+<ifmodule mod_expires="" c="">
 <filesmatch ".(jpg|jpeg|gif|png|ico|css|js)$">
 ExpiresActive on
 ExpiresDefault "access plus 1 month"
