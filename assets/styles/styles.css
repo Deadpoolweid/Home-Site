@@ -43,24 +43,23 @@ aside,article {
     vertical-align: top;
 }
 
-.row {
-    width: 100%;
-    overflow: hidden;
+.table {
+    display: table;
+    /*background: blue;*/
     padding: 1%;
-    margin: 1% 0;
+}
 
+.row {
+    display: table-row;
+    width: 100%;
+    text-align: center;
     /*background-color: fuchsia;*/
-
-    clear: both;
 }
 
 .cell {
-    width: 31%;
-    float: left;
-
-    margin: 0 1%;
-
-    text-align: left;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
 }
 
 /*Ссылки*/
@@ -74,10 +73,6 @@ a:hover {
 }
 
 img {
-    /*max-width: 100%;*/
-    /*height: auto;*/
-
-    /*margin: 2% 0;*/
     transition: 0.5s;
 }
 
