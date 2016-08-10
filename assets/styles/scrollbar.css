@@ -1,0 +1,40 @@
+body {
+    /*scrollbar-face-color: #5997CA;*/
+
+    /*scrollbar-shadow-color: #ffffff;*/
+
+    /*scrollbar-highlight-color: #ffffff;*/
+
+    /*scrollbar-3dlight-color: #5997CA;*/
+
+    /*scrollbar-darkshadow-color: #5997CA;*/
+
+    /*scrollbar-track-color: #F6F6F6;*/
+
+    /*scrollbar-arrow-color: #F6F6F6;*/
+}
+
+::-webkit-scrollbar
+{
+    width: 0.6em;  /* for vertical scrollbars */
+    height: 0.6em; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece
+{
+    background: rgba(0, 80, 125, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: rgba(154, 5, 255, 0.5);
+}
+
+::-webkit-scrollbar-button {
+    background: #0b61a4;
+}
+
+::-webkit-scrollbar-corner {
+    background: #1e18eb;
+}

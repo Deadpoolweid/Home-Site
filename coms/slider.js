@@ -14,45 +14,18 @@ function createSliderControls() {
     for (var i = numOfItems;i-->0;) {
         controls.appendChild(control.cloneNode(true));
     }
-    console.log(controls);
 }
 
-function onControlClicked(e) {
-
-    isSliderFirstTouched = false;
-
-    var target = e.target || e.srcElement;
-    var parent = target.parentNode;
-    var controlId = target.id;
-
+function setupItems() {
     var sliders = document.getElementsByClassName('slider');
     var slider = sliders[0];
     var items = slider.firstElementChild;
 
-    var controlIdInt = parseInt(controlId);
-
-    if (!isSliderFirstTouched) {
-        var oldItem = items.children[oldControlId];
-        oldItem.style.display = 'none';
+    for (var i= items.childElementCount;i-->0;) {
+        var item = items.children[i];
+        item.style.left = (i * 100).toString() + '%';
     }
-
-    var item = items.children[controlIdInt];
-    item.style.display = 'block';
-
-    oldControlId = controlIdInt;
 }
-
-function showFirstElement() {
-    var sliders = document.getElementsByClassName('slider');
-    var slider = sliders[0];
-    var items = slider.firstElementChild;
-    var item = items.firstElementChild;
-    item.style.display = 'block';
-}
-
-var oldControlId = 0;
-
-var isSliderFirstTouched = true;
 
 function setOnClickHandlers() {
     var sliders = document.getElementsByClassName('slider');
@@ -69,8 +42,48 @@ function setOnClickHandlers() {
     }
 }
 
+function onControlClicked(e) {
+
+    isSliderFirstTouched = false;
+
+    var target = e.target || e.srcElement;
+    var controlId = target.id;
+
+    var sliders = document.getElementsByClassName('slider');
+    var slider = sliders[0];
+    var items = slider.firstElementChild;
+
+    var controlIdInt = parseInt(controlId);
+
+    var difference = controlIdInt - oldControlId;
+
+    for (var i = items.childElementCount;i-->0;) {
+        items.children[i].style.left = (parseInt(items.children[i].style.left) - (100*difference)).toString() + '%';
+        console.log(items.children[i].style.left);
+    }
+
+    oldControlId = controlIdInt;
+}
+
+function showFirstElement() {
+    var sliders = document.getElementsByClassName('slider');
+    var slider = sliders[0];
+    var items = slider.firstElementChild;
+    var item = items.firstElementChild;
+
+    var controls = document.getElementsByClassName('control');
+    var control = controls[0];
+    control.classList.remove('control');
+    control.classList.add('controlActive');
+}
+
+var oldControlId = 0;
+
+var isSliderFirstTouched = true;
+
 window.onload = function SliderCore() {
+    setupItems();
     createSliderControls();
     setOnClickHandlers();
-    showFirstElement();
+    // showFirstElement();
 };
