@@ -33,11 +33,6 @@ article {
     text-align: left;
 }
 
-aside p, article p , .head p{
-    display: inline;
-    background-color: rgba(11, 11, 64, 0.5);
-}
-
 aside,article {
     padding: 1% 2%;
     vertical-align: top;
@@ -61,6 +56,14 @@ aside,article {
     width: 33%;
     vertical-align: top;
 }
+
+aside p, article p , .head p, .cell p{
+    display: inline;
+    background-color: rgba(11, 11, 64, 0.5);
+}
+
+
+
 
 /*Ссылки*/
 a {
