@@ -2,10 +2,9 @@
 SetOutputFilter DEFLATE
 Header append Vary User-Agent
 </ifmodule>
-FileETag MTime Size
-<ifmodule mod_expires="" c="">
-<filesmatch ".(jpg|jpeg|gif|png|ico|css|js)$">
-ExpiresActive on
-ExpiresDefault "access plus 1 month"
-</filesmatch>
-</ifmodule>
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+  Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
+  Header unset Cache-Control
+</FilesMatch>
