@@ -5,26 +5,25 @@
     <title>About us</title>
     <?php require_once 'links.php' ?>
 </head>
-
 <body>
-<div id="main">
+<section>
     <?php require_once "coms/header.php" ?>
     <!-- content begins -->
-    <div id="content">
-        <div id="left">
-            <h1>Моя группа</h1>
-            <img src="assets/images/img42.jpg" class="img_l" alt=""/>
+    <section>
+        <aside >
+            <h1>Моя группа</h1><br>
+            <img src="assets/images/img42.jpg" class="img_l" alt="My group"/> <br>
             <p>
                 Нас обучают различным аспектам информатики и математики, а также немного знакомят с биологией(в
                 соответствии с нашим "ответвлением". Мы первое в своём роде направление подготовки, готовящее
                 будущих магистров. Также на данный момент мы единственная группа, в которой обучаются студенты на
                 бюджетно-государственной основе(большинство). У нас отличный куратор, и вообще мы клаасные!!^^
             </p>
-        </div>
+        </aside>
 
-        <div id="right">
-                <h1>Обо мне</h1>
-                <img src="assets/images/img41.jpg" class="img_l" alt=""/>
+        <article>
+                <h1>Обо мне</h1> <br>
+                <img src="assets/images/img41.jpg" class="img_l" alt=""/> <br>
                 <p>
                     Насколько мне позволяет учёба, я увлекаюсь разными вещами.<br>
                     К примеру я за год научился неплохо играть на клавишных, так что как только есть свободная
@@ -33,8 +32,9 @@
                     туда как-нибудь.<br>
                     В число оставшихся второстепенных увлечений входит чтение, Two steps from hell one love^^
                 </p>
-        </div>
+        </article>
     <!-- content ends -->
-    </div>
+    </section>
+</section>
 
-    <?php require_once "coms/footer.php" ?>
+<?php require_once "coms/footer.php" ?>

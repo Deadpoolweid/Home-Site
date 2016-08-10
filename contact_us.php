@@ -1,49 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ru">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <title>Contact us</title>
+    <title>Свяжись со мной</title>
     <?php require_once 'links.php' ?>
 </head>
-
 <body>
-<div id="main">
+<section>
     <? require_once "coms/header.php" ?>
-
-
     <!-- content begins -->
-    <div id="content">
+    <section>
         <div class="head">
             <div>
-                <h1>Cвяжись со мной</h1>
+                <h2>Cвяжись со мной</h2>
                 <p>
                     Если у тебя есть вопросы или предложения по улучшению сайта, наполнению его контентом, либо
                 другим вопросам заполни форму ниже:
                 </p>
             </div>
         </div>
-        <div id="left">
+        <aside>
             <img src="assets/images/left.jpeg"/>
-        </div>
-        <div id="right">
-            <form action="" method="post">
-                <input class="input_txt" placeholder="Имя" name="Name" type="text" required="true"
-                       autofocus="true"/>
-                <input class="input_txt" placeholder="E-mail" name="E-Mail" type="email" email
-                       required="true"/>
-                <input class="input_txt" placeholder="Тема" name="Name" type="text" required="true"/>
-
-                <textarea class="input_txt no-scroll" maxlength="96" placeholder="Сообщение" cols="32" rows="3" name="Message"
-                                  required="true"></textarea>
-
+        </aside>
+        <article>
+            <form action="" method="get">
+                <input class="input_txt" placeholder="Имя" name="Name" type="text" required autofocus>
+                <input class="input_txt" placeholder="E-mail" name="E-Mail" type="email" required>
+                <input class="input_txt" placeholder="Тема" name="Name" type="text" required>
+                <textarea class="input_txt" maxlength="256" placeholder="Сообщение" name="Message"
+                          required></textarea>
                 <div class="buttons">
                     <input class="button" name="Submit" type="submit" value="Отправить"/>
                     <input class="button" name="Submit" type="reset" value="Очистить"/>
                 </div>
             </form>
-        </div>
-    </div>
+        </article>
+    </section>
     <!-- content ends -->
-
+</section>
 <?php require_once "coms/footer.php" ?>
