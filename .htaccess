@@ -1,10 +1,35 @@
-<ifmodule mod_deflate="" c="">
-SetOutputFilter DEFLATE
-Header append Vary User-Agent
-</ifmodule>
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
-  Header set Cache-Control "max-age=2592000"
-</FilesMatch>
-<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
-  Header unset Cache-Control
-</FilesMatch>
+### &#1057;&#1078;&#1072;&#1090;&#1100; &#1086;&#1090;&#1074;&#1077;&#1090; &#1089;&#1077;&#1088;&#1074;&#1077;&#1088;&#1072; &#1076;&#1083;&#1103; &#1087;&#1077;&#1088;&#1077;&#1095;&#1080;&#1089;&#1083;&#1077;&#1085;&#1085;&#1099;&#1093; MIME &#1090;&#1080;&#1087;&#1086;&#1074;
+<ifModule mod_deflate.c>
+  <IfModule mod_filter.c>
+      AddOutputFilterByType DEFLATE text/plain text/html
+      AddOutputFilterByType DEFLATE text/css
+      AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript
+      AddOutputFilterByType DEFLATE text/xml application/xml application/xhtml+xml application/rss+xml
+      AddOutputFilterByType DEFLATE application/json
+      AddOutputFilterByType DEFLATE application/vnd.ms-fontobject application/x-font-ttf font/opentype image/svg+xml image/x-icon
+  </ifModule>
+</ifModule>
+
+<IfModule mod_expires.c>
+    # Enable expires
+    ExpiresActive On
+    
+    # Default a cache expiration
+    ExpiresDefault "access plus 10 month"
+    
+    # Images
+    ExpiresByType image/gif                 "access plus 1 month"
+    ExpiresByType image/png                 "access plus 1 month"
+    ExpiresByType image/jpg                 "access plus 1 month"
+    ExpiresByType image/jpeg                "access plus 1 month"
+    
+    # CSS, JavaScript
+    ExpiresByType text/css                  "access plus 1 year"
+    ExpiresByType application/javascript    "access plus 1 year"
+    ExpiresByType text/javascript           "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+FileETag None
