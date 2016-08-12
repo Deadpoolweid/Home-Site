@@ -5,10 +5,9 @@
 
     <title>Alex Green</title>
     <? require_once "links.php" ?>
-    <link rel="stylesheet" type="text/css" href="/coms/slider.css" >
+    <link rel="stylesheet" type="text/css" href="/coms/slider.min.css" >
 </head>
 <body>
-
 <?php require "coms/header.php" ?>
 <!-- content begins -->
 <section>
@@ -140,7 +139,7 @@
                             своими будущими воплощениями.
                         </p>
                     </div>
-                    <img src="assets/images/top_img8.5.jpg" alt="" />
+                    <img src="assets/images/top_img8.5.png" alt="" />
                 </div>
                 <div class="item">
                     <div class="info">
@@ -204,4 +203,10 @@
 </section>
 <!-- content ends -->
 <?php require_once "coms/footer.php" ?>
-<script src="coms/slider.js"></script>
+<script src="coms/slider.min.js"></script>
+<script>
+    var sliders = document.getElementsByClassName('slider');
+    var slider = sliders[0];
+    var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    slider.style.height = (vh/2).toString() + "px";
+</script>

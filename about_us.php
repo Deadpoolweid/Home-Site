@@ -12,7 +12,7 @@
     <section>
         <aside >
             <h1>Моя группа</h1><br>
-            <img src="assets/images/img42.jpg" class="img_l" alt="My group"/> <br>
+            <img src="assets/images/img42.png" class="img_l" alt="My group"/> <br>
             <p>
                 Нас обучают различным аспектам информатики и математики, а также немного знакомят с биологией(в
                 соответствии с нашим "ответвлением". Мы первое в своём роде направление подготовки, готовящее

@@ -1,13 +1,13 @@
 <!-- footer begins -->
-<link type="text/css" rel="stylesheet" href="/coms/footer.css"/>
+<link type="text/css" rel="stylesheet" href="/coms/footer.min.css"/>
 <footer>
     <div class="column">
         <h3>Контакты</h3>
         <p>
-            Россия, Тула 300000
+            Россия, Тула 300000 <br>
             <span>
                 Phone: <a href="sms:+79534321546?body=Привет. Я с твоего сайта.">8-953-4321-546</a>
-            </span>
+            </span> <br>
             <span>
                 E-mail: <a href="mailto:deadpoolweid@yandex.ru">deadpoolweid@yandex.ru</a>
             </span>
@@ -26,26 +26,20 @@
     </div>
     <div class="column">
         <h3>Найди меня</h3>
-        <ul class="hrefs">
-            <li>
-                <a  href="http://facebook.com/deadpoolweid">
-                    <img src="/assets/icons/facebook.svg" alt="Facebook">
-                    Facebook
-                </a>
-            </li>
-            <li>
-                <a href="http://twitter.com/deadpoolweid">
-                    <img src="/assets/icons/twitter.svg" alt="twitter">
-                    Twitter
-                </a>
-            </li>
-            <li>
-                <a href="http://vk.com/id261422822">
-                    <img src="/assets/icons/vk.svg" alt="VK">
-                    Vkontakte
-                </a>
-            </li>
-        </ul>
+        <div class="hrefs">
+            <a href="http://facebook.com/deadpoolweid">
+                <img src="/assets/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="http://twitter.com/deadpoolweid">
+                <img src="/assets/icons/twitter.svg" alt="twitter">
+            </a> <br>
+            <a href="http://vk.com/id261422822">
+                <img src="/assets/icons/vk.svg" alt="VK">
+            </a>
+            <a href="http://github.com/deadpoolweid">
+                <img src="/assets/icons/github.svg" alt="Github">
+            </a>
+        </div>
     </div>
     <div id="copyright">
         Copyright 2014. Designed by Alex_Green, coded by Alex_Green<br/>

@@ -62,15 +62,18 @@ function onControlClicked(e) {
         console.log(items.children[i].style.left);
     }
 
+    var oldControl = document.getElementById(oldControlId.toString());
+    oldControl.classList.remove('controlActive');
+    oldControl.classList.add('control');
+
+    var control = document.getElementById(controlId);
+    control.classList.remove('control');
+    control.classList.add('controlActive');
+
     oldControlId = controlIdInt;
 }
 
-function showFirstElement() {
-    var sliders = document.getElementsByClassName('slider');
-    var slider = sliders[0];
-    var items = slider.firstElementChild;
-    var item = items.firstElementChild;
-
+function showFirstControl() {
     var controls = document.getElementsByClassName('control');
     var control = controls[0];
     control.classList.remove('control');
@@ -85,5 +88,5 @@ window.onload = function SliderCore() {
     setupItems();
     createSliderControls();
     setOnClickHandlers();
-    // showFirstElement();
+    showFirstControl();
 };

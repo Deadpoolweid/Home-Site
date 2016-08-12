@@ -1,84 +1,82 @@
-html,body {
-    background: url("/assets/images/bg_top.png");
-    /*background-color: #4a11ae;*/
-}
+@charset "UTF-8";
+html, body {
+  background: #4d4b4e;
+  background-image: url("/assets/images/zenbg-1.png"), url("/assets/images/zenbg-2.png");
+  background-repeat: repeat-x, repeat;
+  /*background-color: #4a11ae;*/ }
+html :focus, body :focus {
+  outline: #701487 0.1em solid !important; }
 
 section {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
-/*Вершина блока*/
+/*╨Т╨╡╤А╤И╨╕╨╜╨░ ╨▒╨╗╨╛╨║╨░*/
 .head {
-    width: inherit;
-    height: inherit;
-    text-align: center;
-}
+  width: inherit;
+  height: inherit;
+  text-align: center; }
 
-/*Левый блок*/
+/*╨Ы╨╡╨▓╤Л╨╣ ╨▒╨╗╨╛╨║*/
 aside {
-    display: inline-block;
-    width: 30%;
+  display: inline-block;
+  width: 30%;
+  /*background-color: mediumvioletred;*/ }
 
-
-    /*background-color: mediumvioletred;*/
-}
-
-/*Правый блок*/
+/*╨Я╤А╨░╨▓╤Л╨╣ ╨▒╨╗╨╛╨║*/
 article {
-    width: 60%;
-    /*background-color: #3f046f;*/
-    box-sizing: content-box;
-    display: inline-block;
-    text-align: left;
-}
+  width: 60%;
+  /*background-color: #3f046f;*/
+  box-sizing: content-box;
+  display: inline-block; }
+article figure {
+  display: inline-block;
+  min-width: 20%;
+  max-width: 40%; }
+article p {
+  text-align: left !important; }
 
-aside,article {
-    padding: 1% 2%;
-    vertical-align: top;
-}
+aside, article {
+  padding: 1% 2%;
+  vertical-align: top; }
 
 .table {
-    display: table;
-    /*background: blue;*/
-    padding: 1%;
-}
+  display: table;
+  /*background: blue;*/
+  padding: 1%; }
 
 .row {
-    display: table-row;
-    width: 100%;
-    text-align: center;
-    /*background-color: fuchsia;*/
-}
+  display: table-row;
+  width: 100%;
+  text-align: center;
+  /*background-color: fuchsia;*/ }
 
 .cell {
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
-}
+  display: inline-block;
+  width: 33%;
+  vertical-align: top; }
 
-aside p, article p , .head p, .cell p{
-    display: inline;
-    background-color: rgba(11, 11, 64, 0.5);
-}
+aside p, article p, .head p, .cell p {
+  display: inline;
+  background-color: rgba(11, 11, 64, 0.5); }
 
+.inlineCenter {
+  text-align: center !important; }
+.inlineCenter :nth-child(n) {
+  vertical-align: middle !important; }
 
-
-
-/*Ссылки*/
+/*╨б╤Б╤Л╨╗╨║╨╕*/
 a {
-    color: #b1cece;
-    text-decoration: underline;
-}
-
+  color: #b1cece;
+  text-decoration: underline; }
 a:hover {
-    color: red;
-}
+  color: red; }
 
 img {
-    transition: 0.5s;
-}
-
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
 img:hover {
-    transform: scale(1.1);
-}
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+
+/*# sourceMappingURL=styles.css.map */

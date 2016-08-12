@@ -1,102 +1,78 @@
-/*Поля вода*/
+@charset "UTF-8";
+/*╨Я╨╛╨╗╤П ╨▓╨╛╨┤╨░*/
+form {
+  display: inline-block; }
+
 .input_txt {
-    outline: none;
-    display: block;
-
-    color: rgb(204, 234, 234);
-
-    margin: 5% 0;
-
-    width: 100%;
-    height: 2em;
-
-    padding-left: 3%;
-
-    border: none;
-    border-bottom: 2px solid black;
-
-    background: transparent;
-
-    transition: border-right 0.1s ease,
-    border-top 0.1s 0.1s ease-out,
-    border-left 0.1s 0.2s ease-out,
-    transform 0.3s ease;
-}
-
-/*Цвет текста для placeholder*/
-.input_txt::-webkit-input-placeholder {
-    color: rgb(204, 234, 234);
-}
-
-.input_txt:-moz-placeholder {
-    color: rgb(204, 234, 234);
-}
-
-.input_txt:-ms-input-placeholder{
-    color: rgb(204, 234, 234);
-}
-
+  outline: none;
+  display: block;
+  color: #cceaea;
+  background: transparent;
+  background: rgba(11, 11, 64, 0.6);
+  margin: 5% 0;
+  width: 100%;
+  height: 2em;
+  padding-left: 3%;
+  border: none;
+  border-bottom: 2px solid black;
+  -webkit-transition: border-right 0.1s ease, border-top 0.1s 0.1s ease-out, border-left 0.1s 0.2s ease-out, -webkit-transform 0.3s ease;
+  transition: border-right 0.1s ease, border-top 0.1s 0.1s ease-out, border-left 0.1s 0.2s ease-out, -webkit-transform 0.3s ease;
+  transition: border-right 0.1s ease, border-top 0.1s 0.1s ease-out, border-left 0.1s 0.2s ease-out, transform 0.3s ease;
+  transition: border-right 0.1s ease, border-top 0.1s 0.1s ease-out, border-left 0.1s 0.2s ease-out, transform 0.3s ease, -webkit-transform 0.3s ease; }
+.input_txt::-webkit-input-placeholder, .input_txt:-moz-placeholder, .input_txt:-ms-input-placeholder {
+  color: #cceaea; }
 .input_txt:focus {
-    border: 0.1rem solid #000;
-    transform: scale(1.1);
-    box-shadow: 0 0 0 .1em #3f046f,inset 0 0 .5em .5em rgba(63,4,111,0.5);
-}
+  border: 0.1rem solid #000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  box-shadow: 0 0 0 0.1em #3f046f, inset 0 0 0.5em 0.5em rgba(63, 4, 111, 0.5); }
 
+/*╨ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ ╨┤╨╗╤П placeholder*/
 /*TextArea*/
 textarea {
-    min-height: 10.85em;
-    max-width: 100%;
-    resize: none;
-}
+  min-height: 10.85em;
+  resize: none; }
 
 .no-scroll {
-    overflow: hidden;
-}
+  overflow: hidden; }
 
 textarea::-webkit-input-placeholder {
-    -webkit-transform: translateY(800%);
-    -moz-transform: translateY(800%);
-    -ms-transform: translateY(800%);
-    -o-transform: translateY(800%);
-    transform: translateY(800%);
-
-    -webkit-transition: transform 2s;
-    -moz-transition: transform 2s;
-    -ms-transition: transform 2s;
-    -o-transition: transform 2s;
-    transition: transform 0.5s;
-}
-
+  -webkit-transform: translateY(800%);
+          transform: translateY(800%);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s; }
 textarea:focus::-webkit-input-placeholder {
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%);;
-}
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%); }
 
-/*Кнопки*/
+/*╨Ъ╨╜╨╛╨┐╨║╨╕*/
 .button {
-    color: rgb(204, 234, 234);
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    display: inline-block;
-    border: 0.1em solid #000;
-    margin: 1%;
-    padding: 2%;
-    background-color: transparent;
-    transition: box-shadow 0.5s,
-    transform 0.5s,
-    background 0.5s;
-}
-
+  color: #cceaea;
+  background-color: transparent;
+  background-color: rgba(11, 11, 64, 0.5);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  border: 0.1em solid #000;
+  margin: 1%;
+  padding: 2%;
+  -webkit-transition: box-shadow 0.5s, background 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, background 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, background 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, background 0.5s, -webkit-transform 0.5s; }
 .button:hover {
-    box-shadow: 0 0 0.5em 0.5em rebeccapurple;
-    background-color: #701487;
-    transform: scale(1.1);
-}
+  box-shadow: 0 0 0.5em 0.5em rebeccapurple;
+  background-color: #701487;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .buttons {
-    text-align: center;
-}
+  text-align: center; }
+
+.form {
+  margin: 5%; }
+
+/*# sourceMappingURL=inputs.css.map */

@@ -15,25 +15,32 @@
                 <h2>Cвяжись со мной</h2>
                 <p>
                     Если у тебя есть вопросы или предложения по улучшению сайта, наполнению его контентом, либо
-                другим вопросам заполни форму ниже:
+                    другим вопросам заполни форму ниже:
                 </p>
             </div>
         </div>
         <aside>
-            <img src="assets/images/left.jpeg"/>
+
         </aside>
         <article>
-            <form action="" method="get">
-                <input class="input_txt" placeholder="Имя" name="Name" type="text" required autofocus>
-                <input class="input_txt" placeholder="E-mail" name="E-Mail" type="email" required>
-                <input class="input_txt" placeholder="Тема" name="Name" type="text" required>
+            <div class="inlineCenter">
+                <figure>
+                    <img src="assets/images/left.jpeg"/>
+                </figure>
+                <link href="assets/styles/inputs.css" rel="stylesheet" type="text/css" property="">
+                <form action="" method="get" class="form">
+                    <input class="input_txt" placeholder="Имя" name="Name" type="text" required autofocus>
+                    <input class="input_txt" placeholder="E-mail" name="E-Mail" type="email" required>
+                    <input class="input_txt" placeholder="Тема" name="Name" type="text" required>
                 <textarea class="input_txt" maxlength="256" placeholder="Сообщение" name="Message"
                           required></textarea>
-                <div class="buttons">
-                    <input class="button" name="Submit" type="submit" value="Отправить"/>
-                    <input class="button" name="Submit" type="reset" value="Очистить"/>
-                </div>
-            </form>
+                    <div class="buttons">
+                        <input class="button" name="Submit" type="submit" value="Отправить"/>
+                        <input class="button" name="Submit" type="reset" value="Очистить"/>
+                    </div>
+                </form>
+            </div>
+
         </article>
     </section>
     <!-- content ends -->
